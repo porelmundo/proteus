@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 19
+Sheet 16 19
 Title "rusEfi Proteus"
 Date "2020-01-17"
 Rev "v0.2"
@@ -27,6 +27,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf" H 3025 1550 50
 F 4 "TC4427EOA" H 3025 1850 50  0001 C CNN "PN"
 F 5 "C144205" H 3025 1850 50  0001 C CNN "LCSC"
 F 6 "1" H 3025 1850 50  0001 C CNN "LCSC_ext"
+F 7 "1" H 3025 1850 50  0001 C CNN "possible_not_ext"
 	1    3025 1850
 	1    0    0    -1  
 $EndComp
@@ -44,6 +45,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf" H 3025 3050 50
 F 4 "TC4427EOA" H 3025 3350 50  0001 C CNN "PN"
 F 5 "C144205" H 3025 3350 50  0001 C CNN "LCSC"
 F 6 "1" H 3025 3350 50  0001 C CNN "LCSC_ext"
+F 7 "1" H 3025 3350 50  0001 C CNN "possible_not_ext"
 	1    3025 3350
 	1    0    0    -1  
 $EndComp
