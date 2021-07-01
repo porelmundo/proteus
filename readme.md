@@ -2,9 +2,9 @@
 
 _protean: able to do many different things; versatile._
 
-A high-featured board compatible with [rusEfi](https://github.com/rusefi/rusefi) firmware.
+A high-featured board compatible with [rusEFI](https://github.com/rusefi/rusefi) firmware.
 
-TL;DR [Proteus Board Pinout](readme_pinout.md)
+TL;DR [Proteus Manual](https://github.com/rusefi/rusefi/wiki/Proteus-Manual)
 
 # Goals and Non-Goals
 
@@ -17,7 +17,7 @@ TL;DR [Proteus Board Pinout](readme_pinout.md)
 
 ## Non-goals
 
-- Internal logging (doesn't make sense with 12 mbit/s USB, and a sealed enclosure)
+- ~Internal logging (doesn't make sense with 12 mbit/s USB, and a sealed enclosure)~ Version 0.4 has an SD card!
 - Direct injection
 - Cheap
 
@@ -25,12 +25,13 @@ TL;DR [Proteus Board Pinout](readme_pinout.md)
 
 ## Microcontroller
 
-- STM32F767ZI
-    - 216 MHz ARM Cortex-M7
-    - 16 KB I/D caches
-    - 2MB flash
-    - 512 KB SRAM
+- STM32F429ZG
+    - 180 MHz ARM Cortex-M7
+    - 1MB flash
+    - 256 KB SRAM
     - LQFP144 package
+
+- Also fully compatible with several STM32F7 parts, including the STM32F767ZI, used on v0.1 and v0.2, as well as STM32F429ZIT6.
 
 ## Connectors
 TE Connectivity AMPSEAL connectors:
